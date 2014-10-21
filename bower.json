@@ -1,0 +1,28 @@
+{
+  "name": "mu-requirejs-select",
+  "homepage": "https://github.com/mu-lib/mu-requirejs-select",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mu-lib/mu-requirejs-select.git"
+  },
+  "authors": [
+    "Mikael Karon"
+  ],
+  "description": "Micro RequireJS Select",
+  "main": "require.select.js",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1",
+    "requirejs-text": "~2",
+    "poly": "~0.6"
+  }
+}
